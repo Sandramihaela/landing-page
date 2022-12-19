@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.logo {
+  height: 150px;
+  border-radius: 60%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #5c0476;
+  position: relative;
+  padding: 5px 0;
+}
+
+nav ul li a:hover {
+  color: #4d0558;
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.button {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+  background-size: 152% 100%;
+  background: #931fb6;
+  border: 2px solid #660389;
+}
+
+.button:hover {
+  background: transparent;
+  border-color: #6c07b0;
+  color: #380366;
+}
+
+
+.profile {
+  height: 390px;
+  border-radius: 23%;
+
+}
+
+
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+
+}
+
+.content {
+  display: flex;
+
+}
+
+.content .title {
+  color: #d31183;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(120deg,
+      #29e5d9 20.69%,
+      #e3804a 50.19%,
+      #8c15c7 79.69%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content h1 {
+  color: #524b4b;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+
+.content h1 span {
+  color: #830bab;
+}
+
+.content p {
+  width: 55%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+
+}
+
+.post-image {
+
+  width: 500px;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.works{
+  margin-bottom: 10px;
+margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* About Me Section */
+.aboutMe{
+  text-align: center;
+  color: #9810ad;
+}
+.work{
+  text-align: center;
+  color: #8c15c7;
+}
+.blog{
+  text-align: center;
+  color: #6c07b0;
+}
+
+
+
+@media screen and (max-width: 1175px){
+.info{
+  width:500px;
+}
+.content{
+  justify-content: center;
+}
+}
