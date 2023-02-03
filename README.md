@@ -4,6 +4,11 @@ Here is my new personal portfolio/ landing page to showcase my skills and talent
 When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to the screen resolution.
   This page will be updated as I learn more skills and complete new projects throughout the bootcamp.
 
+## Screenshot
+<img width="1054" alt="Screenshot 2023-02-03 at 18 31 57" src="https://user-images.githubusercontent.com/117038215/216680682-0bd3a46d-8ed2-4a67-b97c-13c7a13fb7f4.png">
+
+
+## Link: https://sandramihaela.github.io/landing-page/
 
 # Installation
 N/A
